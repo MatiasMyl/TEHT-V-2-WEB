@@ -1,0 +1,17 @@
+{
+"colour":[
+  {"option":"Yellow"},
+  {"option":"White"},
+  {"option":"Blue"}
+],
+"population":[
+  {"option":"~ 6.5 million"},
+  {"option":"~ 5.5 million"},
+  {"option":"~ 4.5 million"}
+],
+"celebrated":[
+  {"option":"Independence day"},
+  {"option":"Midsummer"},
+  {"option":"Christmas"}
+]
+}
