@@ -19,8 +19,11 @@ getData().then(result => {
   //answerMainColour = result.answer1[1].option
   //answerPopulation = result.answer2[1].option
   //answerCelebrated = result.answer3[0].option
-
-  document.getElementById("label11").innerHTML = result.answer3[0].option
+  document.getElementById("p5").innerHTML = result.question3[0].option
+  document.getElementById("p6").innerHTML = result.question3[1].option
+  document.getElementById("label7").innerHTML = result.answer3[0].option
+  document.getElementById("label8").innerHTML = result.answer3[1].option
+  document.getElementById("label9").innerHTML = result.answer3[2].option
 });
 
 
