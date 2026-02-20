@@ -12,18 +12,18 @@
     <div id="q1">
         <p>Question 1</p>
         <p>What is the main colour in the finnish flag?</p>
-        <form action="/action_page.php">
-        <input type="radio" id="yellow" name="fav_language">
+        <form id="question1">
+        <input type="radio" id="yellow" name="mainColour">
         <label>Yellow</label><br>
-        <input type="radio" id="white" name="fav_language">
+        <input type="radio" id="white" name="mainColour">
         <label>White</label><br>
-        <input type="radio" id="blue" name="fav_language">
+        <input type="radio" id="blue" name="mainColour">
         <label>Blue</label><br><br>
     </div>
         <div id="q2">
         <p>Question 2</p>
         <p>What is the population of Finland?</p>
-        <form action="/action_page.php">
+        <form id="question2">
         <input type="radio" id="6.5mil" name="population">
         <label>~ 6.5 million</label><br>
         <input type="radio" id="5.5mil" name="population">
@@ -34,17 +34,20 @@
         <div id="q3">
         <p>Question 3</p>
         <p>What is celebrated on 6.12. in Finland?</p>
-        <form action="/action_page.php">
+        <form id="question3">
         <input type="radio" id="independence" name="celebration">
-        <label>Independence day</label><br>
+        <label id="label10"></label><br>
         <input type="radio" id="midsummer" name="celebration">
-        <label>Midsummer</label><br>
+        <label id="label11"></label><br>
         <input type="radio" id="christmas" name="celebration">
-        <label>Christmas</label><br><br>
+        <label id="label12"></label><br><br>
     </div>
     <div id="buttons">  
-        <input type="submit" value="Submit Answers">
+        <input type="submit" value="Submit Answers" onclick="">
         <input type="submit" value="Reset">
     </div>
+    <div id="results"></div>
 </body>
+
+<script src="script.js"></script>
 </html>     

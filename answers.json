@@ -1,15 +1,24 @@
 {
-"colour":[
+  "question1":[
+  {"q1":"What is the main colour in the Finnish flag?"}
+],
+"answer1":[
   {"option":"Yellow"},
   {"option":"White"},
   {"option":"Blue"}
 ],
-"population":[
+"question2":[
+  {"q2":"What is the population of Finland?"}
+],
+"answer2":[
   {"option":"~ 6.5 million"},
   {"option":"~ 5.5 million"},
   {"option":"~ 4.5 million"}
 ],
-"celebrated":[
+"question3":[
+  {"option":"What is celebrated on 6.12. in Finland?"}
+],
+"answer3":[
   {"option":"Independence day"},
   {"option":"Midsummer"},
   {"option":"Christmas"}
