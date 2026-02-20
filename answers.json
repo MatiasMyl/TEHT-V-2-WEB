@@ -1,6 +1,7 @@
 {
   "question1":[
-  {"q1":"What is the main colour in the Finnish flag?"}
+  {"option":"Question 1"},
+  {"option":"What is the main colour in the Finnish flag?"}
 ],
 "answer1":[
   {"option":"Yellow"},
