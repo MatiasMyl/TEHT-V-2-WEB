@@ -20,6 +20,14 @@ getData().then(result => {
   //answerPopulation = result.answer2[1].option
   //answerCelebrated = result.answer3[0].option
   
+  //Question 2 set up
+  document.getElementById("p1").innerHTML = result.question1[0].option
+  document.getElementById("p2").innerHTML = result.question1[1].option
+  document.getElementById("label1").innerHTML = result.answer1[0].option
+  document.getElementById("label2").innerHTML = result.answer1[1].option
+  document.getElementById("label3").innerHTML = result.answer1[2].option
+  
+  //Question 2 set up
   document.getElementById("p3").innerHTML = result.question2[0].option
   document.getElementById("p4").innerHTML = result.question2[1].option
   document.getElementById("label4").innerHTML = result.answer2[0].option
