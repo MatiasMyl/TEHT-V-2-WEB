@@ -68,7 +68,15 @@ function onClick(){
     wrongAnswers ++;
   }
   
-  document.getElementById("results").innerHTML = "You scored " + correctAnswers + "/3" 
+  if(correctAnswers == 3){
+    document.getElementById("results").innerHTML = "You scored 3/3, amazing!"
+  } else if (correctAnswers == 2){
+    document.getElementById("results").innerHTML = "You scored 2/3, great job!"
+  } else if (correctAnswers == 1) {
+    document.getElementById("results").innerHTML = "You scored 1/3, there's room to improve!"
+  } else{
+    document.getElementById("results").innerHTML = "You scored 0/3, please try again!"
+  }
   
 }
 
